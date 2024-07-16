@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15% auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5em;
+  font-family: monospace;
+
+  input {
+    margin-bottom: .9em;
+    padding: 1em .7em;
+    border: .3px solid rgb(197, 189, 189);
+    border-radius: .5em;
+
+    &:focus-visible {
+      border: .3px solid rgb(20, 19, 19);
+      outline: none;
+    }
+    
+    
+  }
+
+
+  .submit {
+    margin-top: .25em;
+    font-size: 1em;
+    font-family: monospace;
+    padding: .6em .7em;
+    text-align: left;
+    background-color: rgb(204, 224, 240);
+    
+    border-radius: .35em;
+    border: none;
+
+    &:hover {
+      cursor: pointer;
+      background-color:  rgb(165, 208, 243);
+    }
+  }
+}
