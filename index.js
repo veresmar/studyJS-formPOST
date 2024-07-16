@@ -4,7 +4,7 @@ const user = {
 }
 
 
-fetch("http://24api.ru/rest-user", {
+fetch("http://84.201.158.229:8000/auth", {
     method: "POST",
     headers: {
         'Content-Type': 'application/json'
